@@ -1,0 +1,145 @@
+## 21XX Template
+
+# Admin password for web interface
+# String: a-z, A-Z, 0-9
+P2 = PASSWORD
+
+# Config Server Path
+# String
+P237 = 172.1.1.2
+
+# Firmware Server Path
+P192 = 172.1.1.2
+
+# Account Active. 0 - No, 1 - Yes. Default value is 0
+# Number: 0, 1
+P271 = 1
+
+# Account Name
+P270 =
+
+# SIP Server
+P47 = 172.1.1.2
+
+# SIP User ID
+P35 =
+
+#Auth ID
+P36 =
+
+# SIP Authenticate Password
+P34 =
+
+# Name (Display Name, e.g., John Doe)
+P3 =
+
+# Register Expiration
+P32 = 2
+
+# Subscribe Expiration
+P26051 = 2
+
+# Prefered Vocoder1
+P57 = 8
+
+# Prefered Vocoder2
+P58 = 0
+
+# IPv4 Address. 0 - DHCP, 1 - Static IP, 2 - PPPoE. Default is 0
+# Number: 0, 1, 2
+# Mandatory
+P8 = 0
+
+# Layer 2 QoS. 802.1Q/VLAN Tag (VLAN classification for RTP). Default is 0
+# Number: 0 - 4094
+P51 = 0
+
+# Layer 2 QoS. 802.1p priority value (0 - 7). Default is 0
+# Number: 0 - 7
+P87 = 0
+
+# Enable LLDP.  0 - Disabled, 1 - Enabled. Default is 1
+P1684 = 1
+
+# Configuration via Keypad
+P1357 = 2
+
+#Language
+P1362 = ru
+
+#Time Zone
+P64 = MSK-3
+
+#Date Display Format
+P102 = 2
+
+#Time Display Format
+P122 = 1
+
+#Tel URI
+P63 = 1
+
+# DND Call Feature ON
+#P2544=*78
+#P2344=*78
+# DND Call Feature OFF
+#P2545=*79
+#P2345=*79
+
+#Config Upgrade Via
+P212 = 0
+
+#Firmware Upgrade Via
+P6767 = 0
+
+# In-call Dial Number on pressing transfer key
+P1525=*2
+
+#Line Keys
+
+P1475=*4
+P1476=*4
+
+# Allow DHCP Option 43 and Option 66 to override server. 0 - No, 1 - Yes. Default is 1
+P145=1
+
+# Firmware Upgrade and Provisioning
+# 0 - Always Check For New Firmware
+# 1 - Check New Firmware only when F/W pre/suffix changes
+# 2 - Always Skip the Firmware Check
+P238 = 0
+
+##############################################################################
+##  Settings/Web Service
+##############################################################################
+# Weather Update
+
+# Use Auto Location Service. 0 - No, 1 - Yes. Default is 1
+
+P8338 = 0
+
+# Enable weather update. 0 - No, 1 - Yes. Default is 1
+
+P1402 = 1
+
+# City Code
+# 0 - Self-Defined City Code, 1 - Automatic. Default is 1
+
+P1405 = 0
+
+# Self-Defined City Code
+
+P1377 = 197227
+
+# Update Interval (in minutes). Default is 15
+# Number: 5 - 360
+
+P1378 = 5
+
+# Degree Unit. auto - Automatic, f - Fahrenheit, c - Celsius. Default is auto
+# String: auto, f, c
+
+P1379 = c
+
+# Screensaver. 0 - No, 1 - Yes, 2 - On if no VPK is active. Default is 1
+P2918 = 0
