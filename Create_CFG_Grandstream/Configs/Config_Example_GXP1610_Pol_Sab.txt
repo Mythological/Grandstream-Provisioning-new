@@ -1,0 +1,125 @@
+###############################################################################################
+####  POL-SAB         Configuration  the converting tool                                   ####
+###############################################################################################
+####################################################################
+## Example P values                                               ##
+####################################################################
+# Admin password for web interface
+# String: a-z, A-Z, 0-9
+P2 = PASSWORD
+
+# Config Server Path
+# String
+P237 = 172.1.1.2
+
+# Firmware Server Path
+P192 = 172.1.1.2
+
+# Account Active. 0 - No, 1 - Yes. Default value is 0
+# Number: 0, 1
+P271 = 1
+
+# Account Name
+P270 =
+
+# SIP Server
+P47 = 172.1.1.2
+
+# SIP User ID
+P35 =
+
+#Auth ID
+P36 =
+
+# SIP Authenticate Password
+P34 =
+
+# Name (Display Name, e.g., John Doe)
+P3 =
+
+# Register Expiration
+P32 = 2
+
+# Subscribe Expiration
+P26051 = 2
+
+# Prefered Vocoder1
+P57 = 8
+
+# Prefered Vocoder2
+P58 = 0
+
+# IPv4 Address. 0 - DHCP, 1 - Static IP, 2 - PPPoE. Default is 0
+# Number: 0, 1, 2
+# Mandatory
+P8 = 0
+
+# Layer 2 QoS. 802.1Q/VLAN Tag (VLAN classification for RTP). Default is 0
+# Number: 0 - 4094
+P51=146
+
+# Layer 2 QoS. 802.1p priority value (0 - 7). Default is 0
+# Number: 0 - 7
+P87=7
+
+# LLDP
+P1684 = 1
+
+# Configuration via Keypad
+P1357 = 2
+
+#Language
+P1362 = ru
+
+#Time Zone
+P64 = MSK-3
+
+#Date Display Format
+P102 = 2
+
+#Time Display Format
+P122 = 1
+
+#Tel URI
+P63 = 1 
+
+#Config Upgrade Via
+P212 = 0
+
+#Firmware Upgrade Via
+P6767 = 0
+
+# In-call Dial Number on pressing transfer key
+P1525=*2
+
+#Line Keys
+P1465=
+P1466=
+P1363=0
+P1365=10
+P1467=*4
+P1468=*4
+#Softkey
+P2987=10
+P2988=0
+P2989=#4
+P2990=*4
+
+# Allow DHCP Option 43 and Option 66 to override server. 0 - No, 1 - Yes. Default is 1
+P145=1
+
+# Firmware Upgrade and Provisioning
+# 0 - Always Check For New Firmware
+# 1 - Check New Firmware only when F/W pre/suffix changes
+# 2 - Always Skip the Firmware Check
+P238 = 0
+
+# Automatic Upgrade
+# 0 - No,
+# 1 - Yes, check for upgrade based on minute(s) setting,
+# 2 - Yes, check for upgrade based on Hour of Day setting,
+# 3 - Yes, check for upgrade based on Day of Week setting,
+# Default is No.
+# Number: 0, 1, 2, 3
+# Mandatory
+P194 = 2
